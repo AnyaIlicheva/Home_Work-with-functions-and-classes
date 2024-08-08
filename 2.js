@@ -1,9 +1,6 @@
-
     //нашли кнопку
     const addButton = document.querySelector('.button');
     //нашли input
-    
-  
     addButton.addEventListener('click', () => {
         const commentInput = document.getElementById("commentInput");
       const enteredValue = commentInput.value;
